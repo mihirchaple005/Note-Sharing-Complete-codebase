@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'DM_Sans';
+    src: url(fonts/DM_Sans,Dancing_Script/DM_Sans/DMSans-Italic-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.main{
+    width: 85vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-bottom: 10vh;
+    height:110vh;
+    border-radius: 25px;
+    opacity: 0.7;
+    display:grid;
+    gap:10px;
+    background:linear-gradient(121deg, rgba(255,255,255,1) 0%, rgba(255,249,244,1) 8%, rgba(255,236,219,1) 15%, rgba(255,235,217,1) 18%, rgba(255,236,219,1) 21%, rgba(255,236,219,1) 22%, rgba(255,238,221,1) 26%, rgba(255,255,255,1) 42%, rgba(255,249,243,1) 52%, rgba(255,249,243,1) 55%, rgba(255,254,253,1) 66%, rgba(255,253,251,1) 73%, rgba(255,242,233,1) 77%, rgba(255,231,215,1) 83%, rgba(255,234,220,1) 89%, rgba(255,255,255,1) 100%);
+ }
+ nav{
+   display:grid;
+   gap:20px
+ }
+ .Programme{
+font-family: 'DM_Sans';
+    place-items: center;
+    display: block;
+    margin-left: 10vw;
+ }
+
+ .Programme a{
+    display: block;
+    color: rgb(69, 33, 40);
+    width: 50vw;
+    height: 8vh;
+    text-decoration: none;
+    display: block;
+    padding-top: 3vh;
+    border-radius: 10px;
+    justify-content: center; /* aligns the items horizontally */
+  align-items: center; 
+  text-align: center;
+  font-size: 17px;
+    background-color: #C3B3FC;
+ }
+ .MTech .MCA .MSc .BSc .BBA .MBA .BTech .BCA{
+    margin: auto;
+    justify-content: center; 
+ }

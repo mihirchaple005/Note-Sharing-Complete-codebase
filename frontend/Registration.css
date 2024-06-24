@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'DM_Sans';
+    src: url(fonts/DM_Sans,Dancing_Script/DM_Sans/DMSans-Italic-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Indie_Flower';
+    src: url('fonts/Indie_Flower/IndieFlower-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.Registration{
+    background-color:#d2cdf4 ;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    height: 140vh;
+    margin-bottom: 0;
+    padding: 0;
+    background-attachment:fixed;
+} 
+@media only screen and (min-width: 600px) {
+
+.RegBox{
+    width:80vw;
+    height: 120vh;
+    position: absolute;
+    background-image:radial-gradient(ellipse, #0000, #0007),linear-gradient( 90deg, rgba(13, 12, 14, 0.9)0%,rgba(13, 11, 14, 0)40%,rgba(13, 11, 14, 0)80%,  rgba(13, 11, 14, 0.4)100%),
+    url("photos/loginbackg1.jpg");
+    background-size: 80vw 92vh; /* Ensures the background covers the entire container */
+    background-position:center;
+    opacity: 0.8;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    border-radius: 24px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4),0 6px 20px rgba(0, 0, 0, 0.4) ;
+    z-index: 3;
+    background-attachment: fixed;
+}
+.Regtitle{
+    padding-top: 2.7vh;
+    position: absolute;
+    padding-left:35vw;
+    font-family: 'DM_Sans';
+    font-weight: bold;
+    font-size: 50px;
+    z-index:1;
+    text-shadow: 4px 4px 4px rgba(15, 13, 17,0.8) ;
+
+}
+.regData{
+    position: relative;
+    margin-top: 5vh;
+    margin-right: 40vw;
+    margin-left: 3vw;
+    margin-bottom: 3vh;
+    background-color: rgba(199, 158, 236, 0.2);
+    opacity: 1;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    border-radius: 10px;
+    
+}
+.regData label{
+    position: relative;
+    color: rgb(251, 249, 247);;
+    opacity: 1;
+    font-size: 24px;
+    font-family: 'DM_Sans';
+    margin-top: 2vh;
+    margin-left: 4vw;
+}
+.regData input{
+    margin-top: 2vh;
+    font-family: 'Indie_Flower';
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: rgb(227, 192, 251);
+}
+.regData p{
+    margin-left: 4vw;
+}
+.regData input:hover{
+    margin-top: 1.5vh;
+    font-family: 'Indie_Flower';
+    font-size: 20px;
+    border-radius: 12px;
+    transform: scale(1.2,1.2);
+    background-color: rgb(240, 227, 249);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5) ;
+}
+.regData input[type="radio"] {
+    transform: scale(1.5); /* Adjust the scale as needed */
+    margin-right: 10px; /* Add some space between the radio button and the label */
+}
+.regData input[type="file"]{
+    background-color: rgb(227, 192, 251);
+    border-radius: 12px;
+    font-size: 24px;
+    margin-left: 4vw;
+}
+.regData input[type="submit"]{
+    margin-left: 17vw;
+}
+}
