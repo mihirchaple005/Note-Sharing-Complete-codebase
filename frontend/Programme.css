@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'DM_Sans';
+    src: url(fonts/DM_Sans,Dancing_Script/DM_Sans/DMSans-Italic-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.main{
+    width: 85vw;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-bottom: 10vh;
+    height:max-content;
+    border-radius: 25px;
+    opacity: 0.7;
+    display:flex;
+    gap:10px;
+    background:linear-gradient(121deg, rgba(255,255,255,1) 0%, rgba(255,249,244,1) 8%, rgba(255,236,219,1) 15%, rgba(255,235,217,1) 18%, rgba(255,236,219,1) 21%, rgba(255,236,219,1) 22%, rgba(255,238,221,1) 26%, rgba(255,255,255,1) 42%, rgba(255,249,243,1) 52%, rgba(255,249,243,1) 55%, rgba(255,254,253,1) 66%, rgba(255,253,251,1) 73%, rgba(255,242,233,1) 77%, rgba(255,231,215,1) 83%, rgba(255,234,220,1) 89%, rgba(255,255,255,1) 100%);
+ }
+ #btech{
+  width:22vw;
+  height: 25vh;
+  margin-top: 2vh;
+  margin-left: 3vw;
+  background-color:rgba(165, 116, 239,0.5);
+  box-shadow: 3px 3px 7px rgba(83, 76, 94, 0.5);
+  align-items: center;
+  align-content: center;
+  font-family: 'DM_Sans';
+  text-shadow: 2px 2px 5px rgba(255,255,255,0.6) ;
+  text-decoration: none;
+  color: #420909;
+  place-items: center;
+  float:center;
+ }
+ #btech :hover{
+  width:26vw;
+  height: 27vh;
+  background-color:rgba(220, 198, 253, 0.5);
+  box-shadow: 4px 4px 7px rgba(83, 76, 94, 0.5);
+  font-family: 'DM_Sans';
+  font-weight: bold;
+ }
+ .cse a{
+  width:22vw;
+  height: 25vh;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  background-color:rgba(165, 116, 239,0.5);
+  box-shadow: 3px 3px 7px rgba(83, 76, 94, 0.5);
+  align-items: center;
+  align-content: center;
+  font-family: 'DM_Sans';
+  text-shadow: 2px 2px 5px rgba(255,255,255,0.6) ;
+  text-decoration: none;
+  color: #420909;
+  place-items: center;
+ }
+ /*Addnotes btech*/
+ .noteadd{
+margin-left: 5vw;
+position: absolute;
+z-index: 0;
+ }
+ .plus{
+  margin-left: 3vw;
+  position: relative;
+  z-index: 10;
+ }
+ .addNotes{
+  margin-left: 50vw;
+ }
+label{
+  font-family: 'DM_Sans';
+  font-weight: bold;
+  font-size: 22px;
+}
+input{
+  margin-top: 6vh;
+  height: 5vh;
+  width: 25vw;
+  font-size: 20px;
+}
+select{
+  height: 5vh;
+  font-size: 22px;
+}
+option{
+  height: 4vh;
+}
+.form{
+  gap: 2vw;
+  align-items: center;
+}
+button{
+  width: 10vw;
+  height: 5vh;
+  font-size: 22px;
+  margin-top: 5vh;
+}
+.AddNoteTitle{
+  font-size: 27px;
+  font-family: 'DM_Sans';
+  color:rgba(165, 116, 239,1);
+  font-weight: bolder;
+}

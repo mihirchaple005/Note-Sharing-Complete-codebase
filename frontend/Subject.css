@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'DM_Sans';
+    src: url(fonts/DM_Sans,Dancing_Script/DM_Sans/DMSans-Italic-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Caveat';
+    src: url(fonts/Caveat-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .main{
+    width: 85vw;
+    margin-top: 10vh;
+    margin-left: 10vh;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-bottom: 10vh;
+    height:max-content;
+    border-radius: 25px;
+    opacity: 0.7;
+    display:flex;
+    gap:10px;
+    background:linear-gradient(121deg, rgba(255,255,255,1) 0%, rgba(255,249,244,1) 8%, rgba(255,236,219,1) 15%, rgba(255,235,217,1) 18%, rgba(255,236,219,1) 21%, rgba(255,236,219,1) 22%, rgba(255,238,221,1) 26%, rgba(255,255,255,1) 42%, rgba(255,249,243,1) 52%, rgba(255,249,243,1) 55%, rgba(255,254,253,1) 66%, rgba(255,253,251,1) 73%, rgba(255,242,233,1) 77%, rgba(255,231,215,1) 83%, rgba(255,234,220,1) 89%, rgba(255,255,255,1) 100%);
+ }
+ .inArow{
+  display: flex;
+}
+.notes{
+    width: 70vw;
+    height: 22vh;
+    background-color:rgba(165, 116, 239,0.4); 
+    border-radius: 12px;
+    padding-left: 2vw;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(143, 67, 162, 0.4),0 6px 20px rgba(186, 121, 236, 0.4) ; ;
+}
+.topic{
+font-weight: bold;
+font-family:'DM_Sans';
+}
+.username .date{
+    font-family: 'DM_Sans';
+    margin-left: 5vw;
+    margin-top: -2vh;
+}
+.description{
+    font-family: 'Caveat';
+    font-weight: lighter;
+    margin-top: -2vh;
+}
+.date{
+  margin-left: 5vw;
+  margin-top: -2vh;
+  font-weight: lighter;
+}
+.username{
+  margin-top: -2vh;
+  font-weight: lighter;
+}
+.likes{
+  margin-top: -2vh;
+  font-size: 10px;
+  margin-left: 1vw;
+}
+.like{ margin-top: -2vh;
+  margin-left: 5vw;
+  height: 0.1vh;
+  width: 0.1vh;
+color: rgba(165, 116, 239,0.6); 
+}
+#icon{
+  margin-top: 4.5vh;
+ margin-right: -80vw;
+  
+}
+.dropbtn2{
+  background-color: rgba(197, 169, 239, 0.1);
+  border: none;
+  cursor: pointer;
+  border: 2px 2px slateblue;
+  margin-right: -80vw;
+  
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+  display: inline-block;
+  position: relative;
+  font-size:15px ;
+  margin-right: -80vw;
+  
+}
+.dropdown2:hover .dropdown-content2{
+  display: block;
+  margin-right: -80vw;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-right: -80vw;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 h4 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-right: -80vw;
+}
+.dropdown-content2 h4:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover2 .dropdown-content2 {
+ display: block;
+ margin-right: -80vw;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {
+ background-color: #f9f9f9;
+ margin-right: -80vw;
+}
+#heart{
+  margin-top: -1.5vh;
+  margin-left: -1vw;
+}
